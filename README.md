@@ -1,30 +1,32 @@
 
-# Passepartout ✈️
+# Passepartout Site Instructions
 
-**Plan Better. Travel Together.**
+This site is ready for GitHub Pages deployment.
 
-Passepartout is a modern travel coordination tool that helps groups sync preferences before booking a trip — no more messy group chats, awkward compromises, or last-minute surprises.
+## 📁 Folder Structure
 
-## 🔗 Live Site
-[https://czreynolds.github.io/passepartout](https://yourusername.github.io/passepartout) *(replace with your actual link)*
+- index.html — Main landing page
+- styles.css — Styling with brand colors
+- /images/
+    - hero.jpg
+    - group.jpg
+    - swipe.jpg
+    - insights.jpg
 
-## 💻 Features
-- Clean, responsive landing page
-- Swipe-based planning concept (in dev)
-- Brand color scheme: Emerald Green, Wasabi, Creased Khaki, Egyptian Earth, Noir de Vigne
+## 🖼️ Image Setup
 
-## 🚀 How to Deploy via GitHub Pages
-1. Clone or download this repo
-2. Open `index.html` in your browser to preview
-3. Push to GitHub
-4. Go to **Settings > Pages** and select `main` branch, `/root`
-5. Visit your site at `https://yourusername.github.io/passepartout`
+Replace the placeholder image files in the `/images/` folder with your actual .jpg files.
 
-## 📫 Join the Waitlist (Form coming soon)
+Make sure they are named exactly as:
+- hero.jpg
+- group.jpg
+- swipe.jpg
+- insights.jpg
 
-## 🧠 About the Name
-Inspired by the loyal travel companion in *Around the World in 80 Days*, Passepartout is designed for thoughtful, connected, no-drama travel.
+## 🚀 How to Deploy
 
----
+1. Upload the entire folder to a GitHub repository
+2. Go to Settings > Pages
+3. Choose `main` branch and `/ (root)`
+4. GitHub Pages will host your site live!
 
-*Built with intention by travelers who get it.*
