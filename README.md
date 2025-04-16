@@ -5,7 +5,7 @@
 Passepartout is a modern travel coordination tool that helps groups sync preferences before booking a trip — no more messy group chats, awkward compromises, or last-minute surprises.
 
 ## 🔗 Live Site
-[https://yourusername.github.io/passepartout](https://yourusername.github.io/passepartout) *(replace with your actual link)*
+[https://czreynolds.github.io/passepartout](https://yourusername.github.io/passepartout)
 
 ## 💻 Features
 - Clean, responsive landing page
