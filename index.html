@@ -1,77 +1,81 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passepartout</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Passepartout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monospace">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body,h1,h2,h3,h4,h5 {font-family: Monaco, monospace;}
+    .mySlides {display:none}
+  </style>
 </head>
-<body>
-    <header>
-        <div class="logo">Passepartout</div>
-        <nav>
-            <a href="#features">Features</a>
-            <a href="#how">How It Works</a>
-            <a href="#waitlist" class="cta">Get the App</a>
-        </nav>
-    </header>
+<body class="w3-content" style="max-width:1500px;">
 
-    <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Plan Better. Travel Together.</h1>
-                <p>Passepartout helps groups sync preferences before they book—no more messy group chats, awkward fights, or last-minute changes.</p>
-                <div class="buttons">
-                    <a href="#" class="btn primary">Get Started</a>
-                    <a href="#how" class="btn secondary">See How It Works</a>
-                </div>
-                <div class="icon-row">
-                    <i class="fas fa-plane-departure"></i>
-                    <i class="fas fa-train"></i>
-                    <i class="fas fa-car-side"></i>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/hero.jpg" alt="App Preview">
-            </div>
-        </section>
+<!-- Header -->
+<header class="w3-display-container w3-center" style="background-color:#10383A;">
+  <img class="w3-image" src="images/hero.jpg" alt="Hero Image" style="min-width:500px; width:100%; max-height:600px; object-fit:cover;">
+  <div class="w3-display-left w3-padding" style="width:100%">
+    <div class="w3-round-large w3-opacity-min w3-padding-large" style="background-color:#10383A; color:#DAA112;">
+      <h1 class="w3-xxlarge">Plan Better. Travel Together.</h1>
+      <p class="w3-large">Group travel, reimagined. Swipe. Align. Go.</p>
+      <div class="w3-margin-top icon-entrance">
+        <i class="fas fa-plane-departure animate-icon" id="plane"></i>
+        <i class="fas fa-car-side animate-icon" id="car"></i>
+        <i class="fas fa-train animate-icon" id="train"></i>
+      </div>
+    </div>
+  </div>
+</header>
 
-        <section id="how" class="how-it-works">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="card">
-                    <img src="images/group.jpg" alt="Group Icon">
-                    <h3>1. Create your group</h3>
-                    <p>Invite your travel squad and set your destination.</p>
-                </div>
-                <div class="card">
-                    <img src="images/swipe.jpg" alt="Swipe Icon">
-                    <h3>2. Swipe to sync</h3>
-                    <p>Everyone answers swipeable questions on vibe, budget, and travel style.</p>
-                </div>
-                <div class="card">
-                    <img src="images/insights.jpg" alt="Insight Icon">
-                    <h3>3. Plan with confidence</h3>
-                    <p>Get a summary of preferences and alignment before you book a thing.</p>
-                </div>
-            </div>
-        </section>
+<!-- How It Works Section -->
+<div class="w3-padding-64" style="background-color:#809276;">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img src="images/group.jpg" class="w3-image w3-round" alt="Create Group">
+      <h3>1. Create Your Group</h3>
+      <p>Invite your squad and define your destination.</p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="images/swipe.jpg" class="w3-image w3-round" alt="Swipe to Sync">
+      <h3>2. Swipe to Sync</h3>
+      <p>Preferences sorted through simple swiping.</p>
+    </div>
+    <div class="w3-col l4 m12">
+      <img src="images/insights.jpg" class="w3-image w3-round" alt="Insights">
+      <h3>3. Plan with Confidence</h3>
+      <p>View alignment across the group before booking.</p>
+    </div>
+  </div>
+</div>
 
-        <section class="waitlist" id="waitlist">
-            <h2>Be the first to sync your squad.</h2>
-            <p>We respect your inbox. No spam. Ever.</p>
-            <form>
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Join Waitlist</button>
-            </form>
-        </section>
-    </main>
+<!-- Features Section -->
+<div class="w3-container w3-center w3-padding-64" style="background-color:#666E51; color:#fbe8d6;">
+  <h2>What Makes Us Different</h2>
+  <div class="w3-row-padding" style="margin-top:32px">
+    <div class="w3-col s4"><i class="fa fa-users w3-jumbo w3-text-yellow"></i><p>Made for Groups</p></div>
+    <div class="w3-col s4"><i class="fa fa-sliders w3-jumbo w3-text-yellow"></i><p>Preference Matching</p></div>
+    <div class="w3-col s4"><i class="fa fa-lightbulb w3-jumbo w3-text-yellow"></i><p>Smart Insights</p></div>
+  </div>
+</div>
 
-    <footer>
-        <p>© 2025 Passepartout • Built with intention by travelers who get it.</p>
-    </footer>
+<!-- Waitlist -->
+<div class="w3-container w3-padding-64 w3-center" style="background-color:#768886;">
+  <h2 class="w3-text-white">Be the first to sync your squad.</h2>
+  <p class="w3-text-white">Join our early access list and get notified when we launch.</p>
+  <form class="w3-container" style="max-width:500px;margin:auto">
+    <input class="w3-input w3-border" type="email" placeholder="Enter your email">
+    <button class="w3-button w3-margin-top w3-padding-large" style="background-color:#DAA112; color:#10383A;">Join Waitlist</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center" style="background-color:#10383A; color:#DAA112;">
+  <p>© 2025 Passepartout • Built with intention by travelers who get it.</p>
+</footer>
 </body>
 </html>
